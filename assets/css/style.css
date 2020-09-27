@@ -99,19 +99,12 @@ h4{
 
 /*---------------------------------About-Me Section*/
 
-#about-me{
-    height: 100vh;
-    background-image: url("assets/images/bg-image.jpg") no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    position: relative;
+ 
 
-}
 
 .name{
     font-family: "raleway", sans-serif;
+    font-weight: 300;
     
 }
 
@@ -133,7 +126,7 @@ hr{
 .block-divider{
     width: 600px;
     height: 3px;
-    margin: 0;
+    margin-top: 5px;
     background-color: #af371f;
     
 }
@@ -145,6 +138,7 @@ hr{
 }
 
 .about-p{
+    font-family: "roboto" sans-serif;
     display: block;
 }
 
@@ -161,6 +155,7 @@ footer{
     font-weight: 18px;
     text-align: center;
     padding-left: 5px;
+    transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
@@ -181,6 +176,7 @@ footer{
     height: 20px;
     border-radius: 50%;
     padding-bottom: 5px;
+    transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
