@@ -16,6 +16,12 @@ h4{
 .general-sub{
     font-family: "raleway" sans-serif;
     font-weight: 400;
+    color: #af371f;
+}
+
+.inline-block{
+    display: inline-block;
+    color: #fafafa;
 }
 
 /*---------------------------------Navbar*/
@@ -95,7 +101,39 @@ h4{
 
 footer{
     background-color: rgba(0, 0, 0, 0.39);
-    color: #af371f;
     min-height: 75px;
+}
 
+.cv-pdf{
+    color: #fafafa;
+    font-weight: 18px;
+    text-align: center;
+    padding-left: 5px;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.cv-pdf i:hover{
+    color: #af371f;
+}
+
+.social-links{
+    padding-bottom: 10px;
+}
+
+.social-links li a i{
+    color: #fafafa;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding-bottom: 5px;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.social-links li a i:hover{
+    color: #af371f;
 }
