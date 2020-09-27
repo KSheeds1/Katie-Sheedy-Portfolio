@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*---------------------------------Navbar*/
+.navbar{
+    margin-bottom: 0;
+    border-color: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25)
+}
+
+.navbar-dark .navbar-brand{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #af371f;
+
+}
+
+.navbar-dark 
+.navbar-nav
+.nav-link{
+    color: #af371f;
+    font-weight: bold;
+    font-size: 1.35rem;
+}
+
+.navbar-dark .navbar-nav 
+.active>.nav-link, .navbar-dark 
+.navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav 
+.nav-link.show, .navbar-dark 
+.navbar-nav .show>.nav-link {
+    color: #af371f;
+}
+
+.navbar .navbar-toggler{
+    border: 0;
+}
+
+.navbar-dark 
+.navbar-toggler 
+.navbar-toggler-item{
+    color: #af371f;
+}
+
