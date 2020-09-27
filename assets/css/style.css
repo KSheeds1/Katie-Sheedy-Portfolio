@@ -98,6 +98,18 @@ h4{
 }
 
 /*---------------------------------About-Me Section*/
+
+#about-me{
+    height: 100vh;
+    background-image: url("assets/images/bg-image.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+
+}
+
 .name{
     font-family: "raleway", sans-serif;
     
