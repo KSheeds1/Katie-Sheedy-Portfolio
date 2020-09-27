@@ -106,8 +106,9 @@ h4{
 #profile-image{
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 40px;
     height: 460px;
-    width: 360px;
+    width: 380px;
     border-radius: 8px;
     box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.253);
 }
@@ -124,6 +125,17 @@ hr{
     background-color: #af371f;
     
 }
+
+.about-title{
+    font-family: "raleway" sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-p{
+    display: block;
+}
+
 
 /*---------------------------------Footer*/
 
