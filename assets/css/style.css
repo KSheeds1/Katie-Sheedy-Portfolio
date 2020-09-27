@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+/*---------------------------------Specific paddings/margins/text*/
+h1,
+h2,
+h3,
+h4{
+    margin: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.general-sub{
+    font-family: "raleway" sans-serif;
+    font-weight: 400;
+}
+
 /*---------------------------------Navbar*/
 .navbar{
     margin-bottom: 0;
@@ -13,7 +30,15 @@
     font-weight: bold;
     font-size: 2rem;
     color: #af371f;
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
 
+}
+
+.navbar-dark .navbar-brand:hover{
+    color: #fafafa;
 }
 
 .navbar-dark 
@@ -22,6 +47,16 @@
     color: #af371f;
     font-weight: bold;
     font-size: 1.35rem;
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.navbar-dark 
+.navbar-nav
+.nav-link:hover{
+    color: #fafafa;
 }
 
 .navbar-dark .navbar-nav 
@@ -31,6 +66,19 @@
 .nav-link.show, .navbar-dark 
 .navbar-nav .show>.nav-link {
     color: #af371f;
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
+
+.navbar-dark .navbar-nav 
+.active>.nav-link, .navbar-dark 
+.navbar-nav .nav-link.active, 
+.navbar-dark .navbar-nav 
+.nav-link.show, .navbar-dark 
+.navbar-nav .show>.nav-link:hover{
+    color: #fafafa;
 }
 
 .navbar .navbar-toggler{
@@ -43,3 +91,11 @@
     color: #af371f;
 }
 
+/*---------------------------------Footer*/
+
+footer{
+    background-color: rgba(0, 0, 0, 0.39);
+    color: #af371f;
+    min-height: 75px;
+
+}
