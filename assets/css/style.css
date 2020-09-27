@@ -97,6 +97,34 @@ h4{
     color: #af371f;
 }
 
+/*---------------------------------About-Me Section*/
+.name{
+    font-family: "raleway", sans-serif;
+    
+}
+
+#profile-image{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 460px;
+    width: 360px;
+    border-radius: 8px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.253);
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.block-divider{
+    width: 600px;
+    height: 3px;
+    margin: 0;
+    background-color: #af371f;
+    
+}
+
 /*---------------------------------Footer*/
 
 footer{
