@@ -99,10 +99,18 @@ h4{
 
 /*---------------------------------About-Me Section*/
 
- #about-me{
+ 
+.container-fluid{
+    padding: 20px 15px 15px 20px;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#about-me{
      background-color: #fafafa;
  }
-
 
 .name{
     font-family: "raleway", sans-serif;
@@ -178,6 +186,7 @@ hr{
     padding: 20px 15px 15px 20px;
     margin-right: 0 auto;
     margin-left: 0 auto;
+    width: 100%;
 }
 
 .portfolio-cards{
@@ -213,6 +222,28 @@ hr{
     font-weight: normal;
     color: #bdb3b3;
     margin-top: 5px;
+}
+
+@media screen and (max-width: 375px){
+    .card{
+        width: 15rem;
+        height: 15rem;
+        padding: 5px;
+        margin-left: 15px;
+    }
+
+    .card-title{
+        font-size: 20px;
+    }
+
+    .card-subtitle{
+        font-size: 18px;
+    }
+
+    .card-text{
+        font-size: 16px;
+        margin-top: 0;
+    }
 }
 
 /*---------------------------------Footer*/
