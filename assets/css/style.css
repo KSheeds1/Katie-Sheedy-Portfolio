@@ -13,12 +13,6 @@ h4{
     text-transform: uppercase;
 }
 
-.general-sub{
-    font-family: "raleway", sans-serif;
-    font-weight: 400;
-    color: #af371f;
-}
-
 .inline-block{
     display: inline-block;
     color: #fafafa;
@@ -33,6 +27,7 @@ h4{
 }
 
 .navbar-dark .navbar-brand{
+    font-family: "raleway", sans-serif;
     font-weight: bold;
     font-size: 2rem;
     color: #af371f;
@@ -50,6 +45,7 @@ h4{
 .navbar-dark 
 .navbar-nav
 .nav-link{
+    font-family: "raleway", sans-serif;
     color: #af371f;
     font-weight: bold;
     font-size: 1.35rem;
@@ -114,8 +110,11 @@ h4{
 
 .name{
     font-family: "raleway", sans-serif;
-    font-weight: 300;
-    
+    font-weight: bold;    
+}
+
+.title{
+    font-family: "roboto", sans-serif;
 }
 
 #profile-image{
@@ -158,7 +157,8 @@ hr{
 }
 
 .about-title{
-    font-family: "raleway" sans-serif;
+    font-family: "raleway", sans-serif;
+    font-weight: bold;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -170,7 +170,7 @@ hr{
 
 
 .about-p{
-    font-family: "roboto" sans-serif;
+    font-family: "roboto", sans-serif;
     margin-right: 5px;
     margin-left: 5px;
     
@@ -179,7 +179,7 @@ hr{
 /*---------------------------------Portfolio section*/
 
 #portfolio{
-    background-color: #021f59;
+    background-color: #1a3977;
 }
 
 .container{
@@ -189,32 +189,46 @@ hr{
     width: 100%;
 }
 
-.portfolio-cards{
-    display: inline-table;
-    justify-content: center;
-    float: center;
+.container-heading{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-heading h1{
+    font-family: "raleway", sans-serif;
+    color: #fafafa;
+    font-weight: bold;
+
+}
+
+.container-heading h3{
+    font-family: "roboto", sans-serif;
+    color: #e5e5e5;
+    font-weight: lighter;
 }
 
 .card{
     background-color: rgba(175, 55, 31);
     border-radius: 20px;
-    width: 20rem;
-    height: 20rem;
-    padding: 20px;
-    margin: 20px;
-    box-shadow: rgba(0, 0, 0, 0.438);
+    width: 100%;
+    height: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
 }
 
 .card-title{
     font-size: 24px;
     font-weight: bold;
     color: #fafafa;
+    padding-bottom: 2px;
 }
 
 .card-subtitle{
     font-size: 20px;
     font-weight: bold;
     color: #e5e5e5;
+    padding-bottom: 2px;
 }
 
 .card-text{
@@ -222,28 +236,6 @@ hr{
     font-weight: normal;
     color: #bdb3b3;
     margin-top: 5px;
-}
-
-@media screen and (max-width: 375px){
-    .card{
-        width: 15rem;
-        height: 15rem;
-        padding: 5px;
-        margin-left: 15px;
-    }
-
-    .card-title{
-        font-size: 20px;
-    }
-
-    .card-subtitle{
-        font-size: 18px;
-    }
-
-    .card-text{
-        font-size: 16px;
-        margin-top: 0;
-    }
 }
 
 /*---------------------------------Footer*/
