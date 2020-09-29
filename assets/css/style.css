@@ -155,31 +155,6 @@ hr{
     margin-bottom: 10px;
 }
 
-.left-about{
-    width: 50%;
-    float: left;
-}
-
-.right-about{
-    width: 50%;
-    float: left;
-}
-
-.left-about-content{
-    width: 50%;
-    float: left;
-    line-height: 25px;
-    clear: both; 
-}
-
-.right-about-content{
-    width: 50%;
-    float: left;
-    line-height: 25px;
-    clear: both;
-    margin-bottom: 10px;
-}
-
 
 .about-icon{
     color: #af371f;
@@ -192,6 +167,52 @@ hr{
     margin-left: 5px;
     
 
+}
+/*---------------------------------Portfolio section*/
+
+#portfolio{
+    background-color: #021f59;
+}
+
+.container{
+    padding: 20px 15px 15px 20px;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+}
+
+.portfolio-cards{
+    display: inline-table;
+    justify-content: center;
+    float: center;
+}
+
+.card{
+    background-color: rgba(175, 55, 31);
+    border-radius: 20px;
+    width: 20rem;
+    height: 20rem;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.438);
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #fafafa;
+}
+
+.card-subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #e5e5e5;
+}
+
+.card-text{
+    font-size: 18px;
+    font-weight: normal;
+    color: #bdb3b3;
+    margin-top: 5px;
 }
 
 /*---------------------------------Footer*/
