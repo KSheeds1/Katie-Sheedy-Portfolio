@@ -282,7 +282,19 @@ hr{
 }
 
 
+.btn-color{
+    background-color: #af371f;
+    color: #fafafa;
+    font-family: "raleway", sans-serif;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+}
 
+.btn-color:hover{
+    background-color: #fafafa;
+    color: #af371f;
+}
 
 
 
