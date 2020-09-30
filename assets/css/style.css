@@ -98,7 +98,7 @@ h4{
 /*---------------------------------About-Me Section*/
 
  
-.container-fluid{
+.container-fluid-about{
     padding: 20px 15px 15px 20px;
     width: 100%;
     
@@ -181,10 +181,10 @@ hr{
 /*---------------------------------Portfolio section*/
 
 #portfolio{
-    background-color: #1a3977;
+    background: linear-gradient(#1a3977, #17336b, #142d5f, #122753);
 }
 
-.container{
+.container-portfolio{
    
     margin-right: 0 auto;
     margin-left: 0 auto;
