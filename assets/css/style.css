@@ -31,6 +31,7 @@ h4{
     font-weight: bold;
     font-size: 2rem;
     color: #af371f;
+    text-shadow: #1a3977 2px 2px 4px;
     transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
@@ -40,6 +41,7 @@ h4{
 
 .navbar-dark .navbar-brand:hover{
     color: #fafafa;
+    text-shadow: #1a3977 2px 2px 4px;
 }
 
 .navbar-dark 
