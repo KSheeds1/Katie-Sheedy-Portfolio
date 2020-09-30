@@ -23,7 +23,9 @@ h4{
     margin-bottom: 0;
     border-color: none;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.25)
+    background-color: rgba(0, 0, 0, 0.25);
+    position: fixed;
+    top: 0;
 }
 
 .navbar-dark .navbar-brand{
@@ -101,6 +103,7 @@ h4{
 .container-fluid{
     padding: 20px 15px 15px 20px;
     width: 100%;
+   
     
 }
 
@@ -110,11 +113,13 @@ h4{
 
 .name{
     font-family: "raleway", sans-serif;
-    font-weight: bold;    
+    font-weight: bold;  
+    margin-top: 60px;  
 }
 
 .title{
     font-family: "roboto", sans-serif;
+    
 }
 
 #profile-image{
@@ -195,7 +200,7 @@ hr{
 }
 
 .container-heading h1{
-    margin-top: 20px;
+    margin-top: 70px;
     padding-top: 10px;
     font-family: "raleway", sans-serif;
     color: #fafafa;
