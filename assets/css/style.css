@@ -177,6 +177,7 @@ hr{
     font-family: "roboto", sans-serif;
     margin-right: 5px;
     margin-left: 5px;
+    font-size: 16px;
     
 
 }
@@ -204,7 +205,9 @@ hr{
     padding-top: 10px;
     font-family: "raleway", sans-serif;
     color: #fafafa;
+    font-size: 32px;
     font-weight: bold;
+    text-transform: uppercase;
 
 }
 
@@ -212,8 +215,12 @@ hr{
     font-family: "roboto", sans-serif;
     color: #e5e5e5;
     font-weight: lighter;
+    font-size: 24px;
 }
 
+.container-heading h3 a{
+    color: #af371f;
+}
 .card{
     background-color: rgba(175, 55, 31);
     border-radius: 20px;
@@ -255,14 +262,20 @@ hr{
 
 .container h1{
     font-family: "raleway", sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
-    margin-top: 150px;
-    margin-bottom: 20px;
+    color: #af371f;
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+
+.container h2{
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
 }
 
 .skills-bar{
-    margin: 50px 30px;
+    margin: 30px 30px;
 }
 
 .progress{
