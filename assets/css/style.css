@@ -252,6 +252,11 @@ hr{
     margin-top: 5px;
 }
 
+.card-link a{
+    background-color: transparent;
+    text-decoration: none;
+}
+
 /*---------------------------------Skills*/
 
 #skills{
