@@ -98,9 +98,6 @@ h4{
  
 .container-fluid{
     padding: 20px 15px 15px 20px;
-    margin-right: 0 auto;
-    margin-left: 0 auto;
-    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -243,11 +240,12 @@ hr{
 /*---------------------------------Contact section*/
 
 #contact{
-    background-color: #fafafa;
+    background-image: url('../images/contact-bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .container-contact{
-    margin: 20px;
     padding: 10px;
     height: 800px;
     
@@ -257,30 +255,35 @@ hr{
     font-family: "raleway", sans-serif;
     color: #af371f;
     margin-top: 150px;
+    margin-left: 5px;
+    padding-left: 5px;
 }
 
 
 .contact-form{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    
+    margin-top: 5px;
+    margin-bottom: 5px;
     color: #fafafa;
-    background-color: rgba(60, 60, 60, 0.6);    
+       
 }
 
 .form-group{
-   
+   margin: 15px; 
 }
 
-.text-input{
-    background: transparent;
-    color: #af371f;
-    height: 20px;
-    margin: 5px 0 20px;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
-
+.form-control{
+    border: 1px solid #af371f;
+    background-color: #fafafa;
+    padding: 7px;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+    box-shadow: 5px 10px 15px #8888;
 }
+
+
+
+
 
 
 /*---------------------------------Footer*/
