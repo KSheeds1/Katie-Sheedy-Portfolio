@@ -99,14 +99,11 @@ h4{
 
 /*---------------------------------About-Me Section*/
 
- 
-.container-fluid{
-    padding: 20px 15px 15px 20px;  
-}
-
 #about-me{
     background-color: #fafafa;
     width: 100%;
+    height:100%;
+    padding: 20px 15px 15px 20px; 
  }
 
 .name{
@@ -188,13 +185,11 @@ hr{
 
 #portfolio{
     background: linear-gradient(to bottom right, #1a3977, #17336b, #142d5f, #122753);
-}
-
-.container{   
-    width: 100%;
+     width: 100%;
     height: 100%;
     padding-bottom: 10px;
 }
+
 
 .container-heading{
     margin-bottom: 10px;
@@ -246,15 +241,12 @@ hr{
     padding-bottom: 2px;
 }
 
-
-
 .card-subtitle{
     font-size: 20px;
     font-weight: bold;
     color: #e5e5e5;
     padding-bottom: 2px; 
 }
-
 
 .card-text{
     font-size: 18px;
@@ -271,8 +263,6 @@ hr{
     background-color: #af371f;
     color: #fafafa;     
 }
-
-
 
 .icon::before{
     display: inline-block;
@@ -298,7 +288,6 @@ hr{
     content: "\f108";
 }
 
-
 .fas 
 .fab 
 .fa-2x 
@@ -321,7 +310,7 @@ hr{
 }
 
 
-.container h1{
+.container-fluid h1{
     font-family: "raleway", sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -330,7 +319,7 @@ hr{
     margin-bottom: 5px;
 }
 
-.container h2{
+.container-fluid h2{
     font-family: "roboto", sans-serif;
     font-size: 20px;
 }
