@@ -363,11 +363,8 @@ hr{
 
     
 }
-.container-contact{
-    align-content: center;
-}
 
-.container-contact h1{
+.contact-title{
     font-family: "raleway", sans-serif;
     color: #af371f;
     margin-top: 50px;
