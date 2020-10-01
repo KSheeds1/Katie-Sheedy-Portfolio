@@ -195,7 +195,7 @@ hr{
     margin-bottom: 10px;
 }
 
-.container-heading h1{
+.work-title{
     margin-top: 70px;
     padding-top: 10px;
     font-family: "raleway", sans-serif;
@@ -206,17 +206,19 @@ hr{
 
 }
 
-.container-heading h3{
+.work-info{
     font-family: "roboto", sans-serif;
     color: #e5e5e5;
     font-weight: lighter;
     font-size: 24px;
     margin-top: 10px;
+    text-align: center;
 }
 
-.container-heading h3 a{
+.work-info a{
     color: #af371f;
 }
+
 .card{
     background-color: rgba(175, 55, 31);
     border-radius: 20px;
