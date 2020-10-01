@@ -190,20 +190,14 @@ hr{
     padding-bottom: 10px;
 }
 
-
-.container-heading{
-    margin-bottom: 10px;
-}
-
 .work-title{
     margin-top: 70px;
     padding-top: 10px;
     font-family: "raleway", sans-serif;
     color: #fafafa;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
-
 }
 
 .work-info{
@@ -212,11 +206,11 @@ hr{
     font-weight: lighter;
     font-size: 24px;
     margin-top: 10px;
-    text-align: center;
 }
 
 .work-info a{
     color: #af371f;
+    font-family: "roboto", sans-serif;
 }
 
 .card{
