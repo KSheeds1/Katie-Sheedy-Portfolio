@@ -100,7 +100,7 @@ h4{
 /*---------------------------------About-Me Section*/
 
 #about-me{
-    background-image: url("../images/skills-bg.jpg");
+    background-image: url("../images/about-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -310,7 +310,7 @@ hr{
 /*---------------------------------Skills*/
 
 #skills{
-    background-image: url("../images/about-bg.jpg");
+    background-image: url("../images/skills-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: none;
