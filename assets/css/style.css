@@ -253,10 +253,37 @@ hr{
 }
 
 .card-link a{
-    background-color: transparent;
     text-decoration: none;
 }
 
+.card-link i{
+    background-color: #fafafa;
+    color: #af371f;
+    width: 10px;
+    height: 10px;
+
+}
+.icon::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fab .fa-github::before{
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f09b";
+}
+
+.icon-desktop::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f108";
+}
 /*---------------------------------Skills*/
 
 #skills{
