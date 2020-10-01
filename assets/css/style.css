@@ -100,13 +100,14 @@ h4{
 /*---------------------------------About-Me Section*/
 
 #about-me{
-    background-image: url("../images/about-bg.jpg");
+    background-image: url("../images/skills-bg.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: none;
     width: 100%;
     height:100%;
     padding: 20px 15px 15px 20px; 
+    opacity: ;
  }
 
 .name{
@@ -309,6 +310,10 @@ hr{
 /*---------------------------------Skills*/
 
 #skills{
+    background-image: url("../images/about-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
     width: 100%;
     height: 100%;
 }
@@ -356,16 +361,14 @@ hr{
 /*---------------------------------Contact section*/
 
 #contact{
-    background-image: url('../images/contact-bg.jpg');
-    background-size: cover;
-    background-attachment: fixed;
+    background: linear-gradient(to bottom right, #1a3977, #17336b, #142d5f, #122753);
     width: 100%;
     height: 100%;
 }
 
 .contact-title{
     font-family: "raleway", sans-serif;
-    color: #af371f;
+    color:  #fafafa;
     margin-top: 50px;
     margin-left: 5px;
     padding-left: 5px;
@@ -376,6 +379,7 @@ hr{
     margin-top: 5px;
     margin-bottom: 5px;
     color: #fafafa;
+    
        
 }
 
@@ -384,7 +388,7 @@ hr{
 }
 
 .form-control{
-    border: 1px solid #af371f;
+    border: 3px solid #af371f;
     background-color: #fafafa;
     padding: 7px;
     line-height: 1.5;
