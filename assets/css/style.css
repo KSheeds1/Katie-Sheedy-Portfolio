@@ -187,7 +187,7 @@ hr{
 /*---------------------------------Portfolio section*/
 
 #portfolio{
-    background: linear-gradient(#1a3977, #17336b, #142d5f, #122753);
+    background: linear-gradient(to bottom right, #1a3977, #17336b, #142d5f, #122753);
 }
 
 .container{   
@@ -216,6 +216,7 @@ hr{
     color: #e5e5e5;
     font-weight: lighter;
     font-size: 24px;
+    margin-top: 10px;
 }
 
 .container-heading h3 a{
@@ -228,7 +229,14 @@ hr{
     height: 90%;
     margin-top: 10px;
     margin-bottom: 10px;
-    
+    transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -webkit-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;   
+}
+
+.card:hover{
+    background-color: #b73560;
 }
 
 .card-title{
@@ -238,12 +246,15 @@ hr{
     padding-bottom: 2px;
 }
 
+
+
 .card-subtitle{
     font-size: 20px;
     font-weight: bold;
     color: #e5e5e5;
-    padding-bottom: 2px;
+    padding-bottom: 2px; 
 }
+
 
 .card-text{
     font-size: 18px;
@@ -257,32 +268,50 @@ hr{
 }
 
 .card-link i{
-    background-color: #fafafa;
-    color: #af371f;
-    width: 10px;
-    height: 10px;
-
+    background-color: #af371f;
+    color: #fafafa;     
 }
+
+
+
 .icon::before{
     display: inline-block;
     font-style: normal;
     font-variant: normal;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    line-height: 1;
+    line-height: 1.5;
     -moz-osx-font-smoothing: grayscale;
+    align-items: center;
 }
 
-.fab .fa-github .icon-github::before{
+.icon-github::before{
     font-family: "Font Awesome 5 Brands";
     font-weight: 400;
     content: "\f09b";
+    
 }
 
 .icon-desktop::before{
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     content: "\f108";
+}
+
+
+.fas 
+.fab 
+.fa-2x 
+.fa-desktop
+.fa-github
+.icon-desktop
+.icon-github{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 10px;
+    
 }
 /*---------------------------------Skills*/
 
@@ -343,15 +372,14 @@ hr{
 @media screen and (min-width: 1024px;){
     #contact{
         width:100%;
-        height: 100%;
-        padding: 0px 0px 0px 0px;
+        height: 100vh;
     }
+
 
     
 }
 .container-contact{
-    
-    
+    align-content: center;
 }
 
 .container-contact h1{
@@ -389,6 +417,7 @@ hr{
     background-color: #af371f;
     color: #fafafa;
     font-family: "raleway", sans-serif;
+    transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
@@ -431,6 +460,43 @@ footer h5{
 
 .social-links{
     padding-bottom: 10px;
+}
+
+.icon::before{
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    -moz-osx-font-smoothing: grayscale;
+    align-items: center;
+}
+
+.icon-github::before{
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f09b";
+    
+}
+
+.icon-linkedin::before{
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f08c";
+}
+ 
+.fab 
+.fa-2x 
+.fa-github
+.fa-linkedin-square
+.icon-github
+.icon-linkedin{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    line-height: 10px;
 }
 
 .social-links li a i{
