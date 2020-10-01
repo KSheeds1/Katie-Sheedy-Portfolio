@@ -306,7 +306,7 @@ hr{
 }
 
 
-.container-fluid h1{
+.skills-title{
     font-family: "raleway", sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -315,7 +315,7 @@ hr{
     margin-bottom: 5px;
 }
 
-.container-fluid h2{
+.skills-info{
     font-family: "roboto", sans-serif;
     font-size: 20px;
 }
