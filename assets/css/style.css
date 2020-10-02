@@ -245,7 +245,7 @@ hr{
 }
 
 .card-subtitle{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #e5e5e5;
     padding-bottom: 2px;
@@ -256,8 +256,16 @@ hr{
     font-family: "roboto", sans-serif;
     font-size: 18px;
     font-weight: normal;
-    color: #bdb3b3;
+    color: #ccc0c0;
     margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.card .row{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    text-align: left;
+
 }
 
 .card-link a{
