@@ -338,9 +338,15 @@ hr{
 
 .skills-info{
     font-family: "roboto", sans-serif;
-    font-size: 20px;
+    font-size: 24px;
     margin-top: 20px;
+    margin-bottom: 10px;
     text-align: center;
+    color: #000000;
+}
+
+.skill-example{
+    margin-bottom: 50px;
 }
 
 .skills-bar{
@@ -367,9 +373,6 @@ hr{
     left: 0;
 }
 
-.iframe{
-    padding-bottom: 10px;
-}
 
 /*---------------------------------Contact section*/
 
@@ -432,7 +435,6 @@ hr{
 
 footer{
     background-color: rgba(0, 0, 0, 0.39);
-    min-height: 150px; 
 }
 
 footer h5{
