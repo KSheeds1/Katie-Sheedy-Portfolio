@@ -248,6 +248,7 @@ hr{
     font-size: 18px;
     font-weight: bold;
     color: #e5e5e5;
+    padding-top: 2px;
     padding-bottom: 2px;
     font-family: "roboto", sans-serif; 
 }
@@ -351,6 +352,7 @@ hr{
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
+    background-color: #a6a6a6;
 }
 
 .progress-type{
@@ -359,11 +361,14 @@ hr{
     font-weight: bold;
     text-align: center;
     color: #fafafa;
-    padding: 30px 30px 10px 30px;
+    padding: 20px 30px 10px 30px;
     background-color: rgba(25, 25, 25, 0.2);
     position: absolute;
     left: 0;
+}
 
+.iframe{
+    padding-bottom: 10px;
 }
 
 /*---------------------------------Contact section*/
