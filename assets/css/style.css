@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -126,7 +133,8 @@ h4{
     height: 590px;
     width: 410px;
     border-radius: 8px;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.253);
+    -webkit-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.253);
+            box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.253);
 }
 
 @media screen and (min-width: 768px){
@@ -186,6 +194,8 @@ hr{
 /*---------------------------------Portfolio section*/
 
 #portfolio{
+    background: -webkit-gradient(linear, left top, right bottom, from(#1a3977), color-stop(#17336b), color-stop(#142d5f), to(#122753));
+    background: -o-linear-gradient(top left, #1a3977, #17336b, #142d5f, #122753);
     background: linear-gradient(to bottom right, #1a3977, #17336b, #142d5f, #122753);
     width: 100%;
     height: 100%;
@@ -290,7 +300,9 @@ hr{
     -webkit-font-smoothing: antialiased;
     line-height: 1;
     -moz-osx-font-smoothing: grayscale;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .icon-github::before{
@@ -380,6 +392,8 @@ hr{
 /*---------------------------------Contact section*/
 
 #contact{
+    background: -webkit-gradient(linear, left top, right bottom, from(#1a3977), color-stop(#17336b), color-stop(#142d5f), to(#122753));
+    background: -o-linear-gradient(top left, #1a3977, #17336b, #142d5f, #122753);
     background: linear-gradient(to bottom right, #1a3977, #17336b, #142d5f, #122753);
     width: 100%;
     height: 100%;
@@ -413,7 +427,8 @@ hr{
     line-height: 1.5;
     font-size: 16px;
     font-family: "roboto", sans-serif;
-    box-shadow: 5px 10px 15px #8888;
+    -webkit-box-shadow: 5px 10px 15px #8888;
+            box-shadow: 5px 10px 15px #8888;
 }
 
 
@@ -474,7 +489,9 @@ footer h5{
     -webkit-font-smoothing: antialiased;
     line-height: 1.5;
     -moz-osx-font-smoothing: grayscale;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 .icon-github::before{
