@@ -138,14 +138,13 @@ h4{
 
 @media screen and (min-width: 768px){
     #profile-image{
-        height: 340px;
-        width: 240px;
+        height: 350px;
+        width: 250px;
     }
 }
 
 @media screen and (min-width: 1024px){
     #profile-image{
-        margin-top: 20px;
         height: 450px;
         width: 350px;
     }
