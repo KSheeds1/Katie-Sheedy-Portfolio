@@ -93,8 +93,7 @@ h4{
     border: 0;
 }
 
-.navbar-dark 
-.navbar-toggler 
+.navbar-toggler, 
 .navbar-toggler-item{
     color: #af371f;
 }
@@ -163,9 +162,9 @@ hr{
 .about-title{
     font-family: "raleway", sans-serif;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 5px;
-    color: #af371f;
+    color: #000000;
 }
 
 
@@ -178,7 +177,8 @@ hr{
     font-family: "roboto", sans-serif;
     margin-right: 5px;
     margin-left: 5px;
-    font-size: 16px;
+    font-size: 18px;
+    color: #000000;
     
 
 }
@@ -235,6 +235,7 @@ hr{
     padding: 10px;
     margin: 5% auto;
     -webkit-box-shadow: 10px 6px 15px 6px rgba(0, 0, 0, 0.411);
+            box-shadow: 10px 6px 15px 6px rgba(0, 0, 0, 0.411);
     transition: all 0.30s ease-in-out;
     -moz-transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
@@ -291,10 +292,9 @@ button{
     border: none;
     border-radius: 10%;
     -webkit-box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.363);
+            box-shadow: 6px 6px 20px 6px rgba(0, 0, 0, 0.363);
 }
 
-
-}
 /*---------------------------------Skills*/
 
 #skills{
