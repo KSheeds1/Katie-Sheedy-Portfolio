@@ -94,7 +94,7 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 # Testing 
 Both the potential employer and recruiter user stories have been successfully fufilled. The about section provides brief snippets of information about me, a photo, if viewing on a desktop or tablet,
 my qualilfications and highlights that I am currently available for employment opportunitites. My portfolio provides a snapshot of my most recent projects presented in cards, 
-the live site and the GitHub repository for each can be accessed through the buttons provided. In regards to my skills, the progress-bars showcases my proficiency in different languages and frameworks I am familiar with to users, while the embedded iframe
+the live site and the GitHub repository for each can be accessed through the buttons provided. In regards to my skills, the progress-bars showcase my proficiency in the various languages and frameworks I am familiar with to users, while the embedded iframe
 provides then with an opportunity to see how I perform within a tech-orientated setting. If users would like to contact me they can simply fill out the contact form provided. All sections of the website are clearly 
 laid out in the naviagation bar, if viewing on mobile devices, the navigational links collapse into a dropdown menu. While the footer contains a downloadable copy of my CV and links to relevant accounts such as GitHub and Linkedin.
 
@@ -105,8 +105,9 @@ Manual testing:
 * All links will open on to a new tab as a result of 'target="_blank"', each link has been tested to ensure it reaches the desired destination.
 * Contact form testing was achieved by:
     * Go to the 'Contact' section.
-    * Attempt to submit the empty form and an error message is received to 'please fill in the required field. 
-    * Attempt to submit the form with an invaild email and an error message is received  
+    * Attempt to submit the empty form and an error message is received to 'please fill in the required field'. 
+    * Attempt to submit the form with an invaild email and an error message is received to 'please include an '@' symbol in the email address'.
+    * Due to the 'required' attribute, all fields must be filled out for the form to be submitted, once all fields are filled out correctly the page will reload. 
 
 
 
