@@ -38,10 +38,29 @@ The required content for the website is:
 * Users can quickly identify and access the information they are looking for
 
 ### Skeleton
-* About wireframe
-* Portfolio wireframe
-* Skills wireframe
-* Contact wireframe 
+ About wireframes:
+ 
+   * [About desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/about-me-desktop.png)
+   * [About mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/about-me-mobile.png) 
+   * [About tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/about-me-tablet.png)
+ 
+ Portfolio wireframes:
+
+   * [Portfolio desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/portfolio-desktop.png)
+   * [Portfolio mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/portfolio-mobile.png)
+   * [Portfolio tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/portfolio-tablet.png)
+
+ Skills wireframes:
+
+   * [Skills desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/skill-set-desktop.png)
+   * [Skills mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/skill-set-mobile.png)
+   * [Skills tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/skill-set-tablet.png)
+
+ Contact wireframes:
+
+   * [Contact desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/contact-desktop.png)
+   * [Contact mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/contact-mobile.png)
+   * [Contact tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/contact-tablet.png)
 
 ### Surface
 The light theme with dark accents was chosen to create an eye-catching first impression. The fonts are clear and legible and contrast nicely against the color scheme. 
