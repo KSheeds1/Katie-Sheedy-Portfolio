@@ -228,7 +228,7 @@ hr{
 }
 
 .card{
-    background-color: rgba(175, 55, 31);
+    background-color: rgb(175, 55, 31);
     border-radius: 20px;
     width: 18rem;
     height: 18rem;
