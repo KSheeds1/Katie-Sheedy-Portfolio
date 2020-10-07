@@ -99,35 +99,79 @@ provides then with an opportunity to see how I perform within a tech-orientated 
 laid out in the naviagation bar, if viewing on mobile devices, the navigational links collapse into a dropdown menu. While the footer contains a downloadable copy of my CV and links to relevant accounts such as GitHub and Linkedin.
 
 Automated testing:
-* Both the HTML and CSS were validated by W3C Validation Service and passed without error. 
+* The site's 'style.css' was parsed and has had vendor prefixes added by autoprefixer.github.io
+* Both the HTML and CSS were validated by W3C Validation Service and passed without error.
+* Cross-browser testing was achieved using browserling.com. The site's compatibility was tested across:
+    * Chrome            
+    * Safari
+    * Opera
+    * Firefox
+    * Internet Explorer
 
-Manual testing: 
+* Testing also took place on multiple mobile devices, such as:
+    * iPhone 5, 6, 7, 8, X (Chrome & Safari)
+    * Huawei P30 Pro 
+
+Manual testing:
+* All navigational links will open to the correct section of the site when clicked on. 
 * All links will open on to a new tab as a result of 'target="_blank"', each link has been tested to ensure it reaches the desired destination.
 * Contact form testing was achieved by:
     * Go to the 'Contact' section.
     * Attempt to submit the empty form and an error message is received to 'please fill in the required field'. 
     * Attempt to submit the form with an invaild email and an error message is received to 'please include an '@' symbol in the email address'.
+    * Attempt to submit an empty text area and an error message is received to 'please fill in the required field'.
     * Due to the 'required' attribute, all fields must be filled out for the form to be submitted, once all fields are filled out correctly the page will reload. 
 
+Fixed bugs:
+* A bug was found while testing on 'internet explorer' the background-color of the portfolio cards was not supported as it was provided using RGBA.
+Adjusting the background color from using RGBA to RGB resolved the issue.
 
+
+Known bugs & issues:
+* The site was flagged for an issue in Chrome 'Dev Tools' concerning the setting of the 'SameSite attribute' for a cross-site request to send cookies pertaining
+to the embedded iframe. At first, this was believed to be a result of an 'Ad Blocker' extension however, on further expection and research of  
+'SameSite' attributes, it is the resonsibility of the API owner to set such attributes, in this case, YouTube. 
 
 # Deployment 
+This site is hosted by GitHub Pages, the publishing source chosen was the 'master' branch. To choose a publishing source and deploy the site:
+* Navigate to the site's repository
+* Under the repository name, click **settings**
+* Under **GitHub Pages** use the **branch drop-down menu** and select **'master'** as the publishing source
+* Click **'Save'** 
 
+To run locally, you can clone this repository, or pull the code from this GitHub repository:
+* Navigate to the main page of the repository
+* Click the green **code** button
+* To clone the repository **using HTTPS**, under **'Clone with HTTPS'** click the clipboard symbol
+* To clone the repository using an **SSH Key**, click **Use SSH**, and click the clipboard symbol
+* Open Git Bash
+* Change the current working directory to the loction where you want the cloned directory
+* Type  ```git clone``` and paste in the copied URL  
+``` $ git clone https://github.com/KSheeds1/Katie-Sheedy-Portfolio.git```
+* Press **Enter** to create your local clone
+  
 # Credits
 ## Content
-* All content for the 'About Me' and 'Portfolio' sections was written by me. 
+All content for the 'About', 'Portfolio', and 'Skills' sections was written by me. 
 
 ## Media
-**About-Me image**
-* This image is my own personal property.
+**About-Me image:**
+
+This image is my own personal property.
  
-**About-Me background**
-* This image was obtained from Unsplash.com 
+**About-Me background:**
 
-**Skills background**
-* This image was obtained from Unsplash.com
+This image was obtained from unsplash.com, a stock photography library.
 
-**Girls in Tech video**
-* This video was obtained from Youtube, provided by the user 'No Name Here'.
+**Skills background:**
+
+This image was obtained from unsplash.com.
+
+**Girls in Tech video:**
+
+This video was obtained from youtube.com, provided by user [No Name Here](https://www.youtube.com/channel/UCNNW3D4yqruKNBtdrG0n2zg).
 
 ## Acknowledgements
+
+The column structure for the 'about-me' points of information was sourced and adapted from Code Institute Module 5: 'User Centric Front-end Devlopment'
+(Putting It All Together | Mini Project with Bootstrap 4 > Three Reasons To Hire Me) the column structure was modified to fit the structure and style of this site.  
