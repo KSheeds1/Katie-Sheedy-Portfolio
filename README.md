@@ -7,7 +7,7 @@ The purpose of this website is to showcase myself and my abilities, to recruiter
 My goal as an owner, is to increase my visibility within the tech world and provide an eye-catching, user-friendly website to gain interest from potential employers and recruiters.
 
 ## Demo
-Access the live demo here. 
+Access the live site [here](https://ksheeds1.github.io/Katie-Sheedy-Portfolio/). 
 
 # UX
 ### User Stories 
@@ -70,7 +70,7 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 * Fixed, in the default position, allows users to quickly identify the different sections. The font color of each section changes when hovered over. On mobile screen widths, sections are available in a collapsible menu to provide a cleaner layout on smaller screens.
 
 **Bootstrap Cards:**
-* Are utilized in the portfolio section to present my projects in bitesized chunks, they contain a link to the live site and to the github repository which are represented through  appropriate icons. 
+* Are utilized in the portfolio section to present my projects in bitesized chunks, they contain a link to the live site and to the github repository which are represented through buttons. 
 
 **Progress-bars:**
 * Provide a visual representation of my skills, displaying my proficiency in different languages and frameworks. 
@@ -92,11 +92,20 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 * Autoprefixer
 
 # Testing 
-Both the potential employer and recruiter user stories have been successfully fufilled. The about section provides brief snippets of information about me, a photo, if viewing on a desktop or tablet,
-my qualilfications and highlights that I am currently available for employment opportunitites. My portfolio provides a snapshot of my most recent projects presented in cards, 
-the live site and the GitHub repository for each can be accessed through the buttons provided. In regards to my skills, the progress-bars showcase my proficiency in the various languages and frameworks I am familiar with to users, while the embedded iframe
-provides then with an opportunity to see how I perform within a tech-orientated setting. If users would like to contact me they can simply fill out the contact form provided. All sections of the website are clearly 
-laid out in the naviagation bar, if viewing on mobile devices, the navigational links collapse into a dropdown menu. While the footer contains a downloadable copy of my CV and links to relevant accounts such as GitHub and Linkedin.
+Both the potential employer and recruiter user stories have been successfully fufilled.
+All sections of the website are clearly 
+laid out in the naviagation bar, if viewing on mobile devices, the navigational links collapse into a dropdown menu. While the footer contains a downloadable copy of my CV and links to relevant accounts such as GitHub and Linkedin. 
+
+The about section provides brief snippets of information about me, a photo, if viewed on a desktop or tablet,
+my qualilfications and highlights that I am currently available for employment opportunitites. 
+
+My portfolio provides a snapshot of my most recent projects presented in Bootstrap's cards, 
+the live site and the GitHub repository for each, can be accessed through the buttons provided. For the time being, the 'live site' buttons link to my GitHub account until a time when, they will be replaced with links to actual projects. 
+
+In regards to my skills, the progress-bars showcase my proficiency in the various languages and frameworks I am familiar with, to users. While, the embedded iframe
+provides then with an opportunity to see how I perform within a tech-orientated setting and portrays my skills through a different medium. 
+
+If users would like to contact me, they can simply fill out the contact form provided. 
 
 Automated testing:
 * The site's 'style.css' was parsed and has had vendor prefixes added by autoprefixer.github.io
