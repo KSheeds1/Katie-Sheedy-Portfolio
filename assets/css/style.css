@@ -221,17 +221,11 @@ hr{
     font-size: 24px;
 }
 
-.portfolio-cards{
-    padding: 0px 5px;
-    margin: 0;
-    
-}
-
 .card{
     background-color: rgb(175, 55, 31);
-    border-radius: 20px;
     width: 18rem;
     height: 18rem;
+    border-radius: 20px;
     padding: 10px;
     margin: 5% auto;
     -webkit-box-shadow: 10px 6px 15px 6px rgba(0, 0, 0, 0.411);
