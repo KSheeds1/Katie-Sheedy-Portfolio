@@ -33,9 +33,9 @@ The required content for the website is:
 * Downloadable CV.pdf
 
 ### Structure:
-* The website is designed to foster intuitive learning, the aim is to provide an intuitive interaction between the user and the website
-* Content is structured logically and grouped categorically 
-* Users can quickly identify and access the information they are looking for
+* The website is designed to foster intuitive learning, the aim is to provide an intuitive interaction between the user and the website.
+* Content is structured logically and grouped categorically. 
+* Users can quickly identify and access the information they are looking for.
 
 ### Skeleton:
  About wireframes:
