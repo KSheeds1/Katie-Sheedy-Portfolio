@@ -40,7 +40,6 @@ h4{
     -moz-transition: all 0.30s ease-in-out;
     -webkit-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
-
 }
 
 .navbar-dark .navbar-brand:hover{
@@ -107,7 +106,7 @@ h4{
     width: 100%;
     height:100%;
     padding: 20px 15px 15px 20px; 
- }
+}
 
 .name{
     font-family: "raleway", sans-serif;
@@ -130,7 +129,6 @@ h4{
     -webkit-box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.253);
             box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.253);
 }
-
 
 @media screen and (max-width: 768px){
     #profile-image{
@@ -155,8 +153,7 @@ hr{
     width: 600px;
     height: 3px;
     margin-top: 5px;
-    background-color: #af371f;
-    
+    background-color: #af371f;   
 }
 
 .about-title{
@@ -167,11 +164,9 @@ hr{
     color: #000000;
 }
 
-
 .about-icon{
     color: #af371f;
 }
-
 
 .about-p{
     font-family: "roboto", sans-serif;
@@ -179,14 +174,9 @@ hr{
     margin-left: 5px;
     font-size: 18px;
     color: #000000;
-    
-
 }
 
-
-
 /*---------------------------------Portfolio section*/
-
 #portfolio{
     background: -webkit-gradient(linear, left top, right bottom, from(#1a3977), color-stop(#17336b), color-stop(#142d5f), to(#122753));
     background: -o-linear-gradient(top left, #1a3977, #17336b, #142d5f, #122753);
@@ -270,7 +260,6 @@ hr{
     padding-top: 10px;
     padding-bottom: 5px;
     text-align: left;
-
 }
 
 .card-link a{
@@ -290,7 +279,6 @@ button{
 }
 
 /*---------------------------------Skills*/
-
 #skills{
     background-image: url("../images/skills-bg.jpg");
     background-position: center;
@@ -298,7 +286,6 @@ button{
     width: 100%;
     height: 100%;
 }
-
 
 .skills-title{
     font-family: "raleway", sans-serif;
@@ -344,9 +331,7 @@ button{
     left: 0;
 }
 
-
 /*---------------------------------Contact section*/
-
 #contact{
     background: -webkit-gradient(linear, left top, right bottom, from(#1a3977), color-stop(#17336b), color-stop(#142d5f), to(#122753));
     background: -o-linear-gradient(top left, #1a3977, #17336b, #142d5f, #122753);
@@ -363,13 +348,10 @@ button{
     padding-left: 5px;
 }
 
-
 .contact-form{
     margin-top: 5px;
     margin-bottom: 5px;
-    color: #fafafa;
-    
-       
+    color: #fafafa;   
 }
 
 .form-group{
@@ -387,7 +369,6 @@ button{
             box-shadow: 5px 10px 15px #8888;
 }
 
-
 .btn-color{
     background-color: #af371f;
     color: #fafafa;
@@ -403,10 +384,7 @@ button{
     color: #af371f;
 }
 
-
-
 /*---------------------------------Footer*/
-
 footer{
     background-color: rgba(0, 0, 0, 0.39);
 }
