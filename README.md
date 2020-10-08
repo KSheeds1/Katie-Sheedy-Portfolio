@@ -9,7 +9,7 @@ My goal as an owner, is to increase my visibility within the tech world and prov
 ## Demo
 Access the live site [here](https://ksheeds1.github.io/Katie-Sheedy-Portfolio/)
 
-![alt-text](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/responsive-screenshot.png "Responsive-screenshot")
+![alt-text](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/readme-folder/finished-site-screenshots/responsive-screenshot.png "Responsive-screenshot")
 
 
 
@@ -17,17 +17,17 @@ Access the live site [here](https://ksheeds1.github.io/Katie-Sheedy-Portfolio/)
 ### User Stories: 
 >As a recruiter, I want to find a way to contact Katie directly, to speak about a potential employment opportunity.
 
-![Contact-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/contact-screenshot.png "Contact")
+![Contact-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/readme-folder/finished-site-screenshots/contact-screenshot.png "Contact")
 
 >As a potential employer, I want to be able obtain information regarding her skillset, so that I can assess whether she is viable candidate for an available position. 
 
-![Skills-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/skills-screenshot.png "Skills")
+![Skills-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/readme-folder/finished-site-screenshots/skills-screenshot.png "Skills")
 
 >As a potential employer, I want to be able to view her latest projects and find links to relevant accounts such as GitHub and LinkedIn, so I can determine whether she is a suitable candidate
 for an available position.
 
-![Portfolio-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/portfolio-screenshot.png "Portfolio")
-![Social-links-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/footer-screenshot.png "Social-links")
+![Portfolio-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/readme-folder/finished-site-screenshots/portfolio-screenshot.png "Portfolio")
+![Social-links-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/readme-folder/finished-site-screenshots/footer-screenshot.png "Social-links")
 
 ### Strategies:
 * A portfolio website is an imperative asset for a newly qualified developer to increase visibility and cultivate a brand image for oneself. 
@@ -54,27 +54,27 @@ The required content for the website is:
 ### Skeleton:
  About wireframes:
  
-   * [About desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/about-me-desktop.png)
-   * [About mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/about-me-mobile.png) 
-   * [About tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/about-me-tablet.png)
+   * [About desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/about-me-desktop.png)
+   * [About mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/about-me-mobile.png) 
+   * [About tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/about-me-tablet.png)
  
  Portfolio wireframes:
 
-   * [Portfolio desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/portfolio-desktop.png)
-   * [Portfolio mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/portfolio-mobile.png)
-   * [Portfolio tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/portfolio-tablet.png)
+   * [Portfolio desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/portfolio-desktop.png)
+   * [Portfolio mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/portfolio-mobile.png)
+   * [Portfolio tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/portfolio-tablet.png)
 
  Skills wireframes:
 
-   * [Skills desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/skill-set-desktop.png)
-   * [Skills mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/skill-set-mobile.png)
-   * [Skills tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/skill-set-tablet.png)
+   * [Skills desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/skill-set-desktop.png)
+   * [Skills mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/skill-set-mobile.png)
+   * [Skills tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/skill-set-tablet.png)
 
  Contact wireframes:
 
-   * [Contact desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/contact-desktop.png)
-   * [Contact mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/contact-mobile.png)
-   * [Contact tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/contact-tablet.png)
+   * [Contact desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/contact-desktop.png)
+   * [Contact mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/contact-mobile.png)
+   * [Contact tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/readme-folder/wireframes/images/contact-tablet.png)
 
 ### Surface:
 The light theme with dark accents was chosen to create an eye-catching first impression. The fonts are clear and legible and contrast nicely against the color scheme. 
