@@ -10,19 +10,19 @@ My goal as an owner, is to increase my visibility within the tech world and prov
 Access the live site [here](https://ksheeds1.github.io/Katie-Sheedy-Portfolio/). 
 
 # UX
-### User Stories 
+### User Stories: 
 >As a recruiter, I want to find a way to contact Katie directly, to speak about a potential employment opportunity.
 
 >As a potential employer, I want to be able obtain information regarding her skillset, view her latest projects and find links to relevant accounts such as GitHub and LinkedIn, so that I can assess whether she is viable candidate for an available position. 
 
-### Strategies
+### Strategies:
 * A portfolio website is an imperative asset for a newly qualified developer to increase visibility and cultivate a brand image for oneself. 
 
 * The objective of the site is to proivde a well-structured, accessible webiste that is both, aesthetically pleasing and user-friendly in design.
 
 * The owner goal is to provide users with access to my portfolio, skillset, links to relevant accounts, and a means of contact, clearly laid out in a logical structure.
 
-### Scope
+### Scope:
 The **functional requirements** put in place help aid users to access the content they are looking for quickly and easily.
 
 The required content for the website is: 
@@ -32,12 +32,12 @@ The required content for the website is:
 * Contact form
 * Downloadable CV.pdf
 
-### Structure
+### Structure:
 * The website is designed to foster intuitive learning, the aim is to provide an intuitive interaction between the user and the website
 * Content is structured logically and grouped categorically 
 * Users can quickly identify and access the information they are looking for
 
-### Skeleton
+### Skeleton:
  About wireframes:
  
    * [About desktop](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/about-me-desktop.png)
@@ -85,6 +85,10 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 **Navbar transitions:**
 * I plan to implement a hover in/out transition for the navbar sections, where the text is replaced by an icon.
 
+**Contact form functionality:**
+* Once I have developed the skills to put in place the back-end structures needed to submit the form and provide interaction 
+feedback I will put this in place for the contact form. 
+
 # Technologies Used
 * HTML5
 * CSS3
@@ -92,6 +96,8 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 * Autoprefixer
 
 # Testing 
+**Functionality:**
+
 Both the potential employer and recruiter user stories have been successfully fufilled.
 All sections of the website are clearly 
 laid out in the naviagation bar, if viewing on mobile devices, the navigational links collapse into a dropdown menu. While the footer contains a downloadable copy of my CV and links to relevant accounts such as GitHub and Linkedin. 
@@ -107,7 +113,7 @@ provides then with an opportunity to see how I perform within a tech-orientated 
 
 If users would like to contact me, they can simply fill out the contact form provided. 
 
-Automated testing:
+**Manual testing & Repsonsiveness:**
 * The site's 'style.css' was parsed and has had vendor prefixes added by autoprefixer.github.io
 * Both the HTML and CSS were validated by W3C Validation Service and passed without error.
 * Cross-browser testing was achieved using browserling.com. The site's compatibility was tested across:
@@ -117,11 +123,11 @@ Automated testing:
     * Firefox
     * Internet Explorer
 
+
 * Testing also took place on multiple mobile devices, such as:
     * iPhone 5, 6, 7, 8, X (Chrome & Safari)
     * Huawei P30 Pro 
 
-Manual testing:
 * All navigational links will open to the correct section of the site when clicked on. 
 * All links will open on to a new tab as a result of 'target="_blank"', each link has been tested to ensure it reaches the desired destination.
 * Contact form testing was achieved by:
@@ -129,17 +135,29 @@ Manual testing:
     * Attempt to submit the empty form and an error message is received to 'please fill in the required field'. 
     * Attempt to submit the form with an invaild email and an error message is received to 'please include an '@' symbol in the email address'.
     * Attempt to submit an empty text area and an error message is received to 'please fill in the required field'.
-    * Due to the 'required' attribute, all fields must be filled out for the form to be submitted, once all fields are filled out correctly the page will reload. 
+    * Due to the 'required' attribute, all fields must be filled out for the form to be submitted, once all fields are filled out correctly the page will reload - this is 
+    because the back-end structure has not been put in place yet. 
 
-Fixed bugs:
-* A bug was found while testing on 'internet explorer' the background-color of the portfolio cards was not supported as it was provided using RGBA.
+**Manual testing & usability:**
+
+The site was tested by three individuals post-development stage. Testing took place on both on desktop and mobile to ensure
+the site: fosters intuitive learning, provides an intuitive interaction and ilicits a positive emotional response from the user.
+
+The test users reported that the context and purpose of the site was clear. Intuitive learning was achieved, as the users found navigating through different sections of the site easy,
+due to the structured and logical layout provided by the navbar. Its fixed position also allowed them to switch between sections quickly and easily, achieving the owners goal for an intuitive
+interaction. Users also reported a positive emotional response to the site after the interaction.  
+
+**Fixed bugs:**
+* A bug was found while testing on 'internet explorer'. The background-color of the portfolio cards was not supported as it was provided using RGBA.
 Adjusting the background color from using RGBA to RGB resolved the issue.
 
 
-Known bugs & issues:
+**Known bugs & issues:**
+* The contact form does not yet have the back-end technology in place to send the form, filling out the required fields and clicking 'send' will just reload the page, until a time, when the back-end structure needed 
+can be put in place and the form will work functionally.
+
 * The site was flagged for an issue in Chrome 'Dev Tools' concerning the setting of the 'SameSite attribute' for a cross-site request to send cookies pertaining
-to the embedded iframe. At first, this was believed to be a result of an 'Ad Blocker' extension however, on further expection and research of  
-'SameSite' attributes, it is the resonsibility of the API owner to set such attributes, in this case, YouTube. 
+to the embedded iframe. At first, this was believed to be a result of an 'Ad Blocker' extension however, on further expection and research of 'SameSite' attributes, it is the resonsibility of the API owner to set such attributes, in this case, YouTube. 
 
 # Deployment 
 This site is hosted by GitHub Pages, the publishing source chosen was the 'master' branch. To choose a publishing source and deploy the site:
@@ -152,7 +170,7 @@ To run locally, you can clone this repository, or pull the code from this GitHub
 * Navigate to the main page of the repository
 * Click the green **code** button
 * To clone the repository **using HTTPS**, under **'Clone with HTTPS'** click the clipboard symbol
-* To clone the repository using an **SSH Key**, click **Use SSH**, and click the clipboard symbol
+
 * Open Git Bash
 * Change the current working directory to the loction where you want the cloned directory
 * Type  ```git clone``` and paste in the copied URL  
