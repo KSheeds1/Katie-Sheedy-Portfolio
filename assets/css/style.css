@@ -130,6 +130,13 @@ h4{
             box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.253);
 }
 
+@media (min-width:576px) and (max-width: 767px){
+    #profile-image{
+        height:350px;
+        width: 250px; 
+    }
+}
+
 @media screen and (max-width: 768px){
     #profile-image{
         height: 450px;
