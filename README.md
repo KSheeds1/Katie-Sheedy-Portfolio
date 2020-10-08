@@ -94,7 +94,8 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 
 ## Features left to implement
 **Filter option:**
-* I intent to implement a filter option for the portfolio section, allowing users to filter their search of projects by technology, language, or framework. I plan to implement this feature once my portfolio grows in size.
+* I intent to implement a filter option for the portfolio section, allowing users to filter their search of projects by technology, language, or framework. 
+I plan to implement this feature once my portfolio grows in size.
 
 **Navbar transitions:**
 * I plan to implement a hover in/out transition for the navbar sections, where the text is replaced by an icon.
@@ -102,6 +103,9 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 **Contact form functionality:**
 * Once I have developed the skills to put in place the back-end structures needed to submit the form and provide interaction 
 feedback I will put this in place for the contact form. 
+
+**CV:**
+* I plan to update the placeholder CV with a software development specific CV.     
 
 # Technologies Used
 * HTML5
@@ -113,14 +117,15 @@ feedback I will put this in place for the contact form.
 **Functionality:**
 
 Both the potential employer and recruiter user stories have been successfully fufilled.
-All sections of the website are clearly 
-laid out in the naviagation bar, if viewing on mobile devices, the navigational links collapse into a dropdown menu. While the footer contains a downloadable copy of my CV and links to relevant accounts such as GitHub and Linkedin. 
+All sections of the website are clearly laid out in the naviagation bar, if viewing on mobile devices, the navigational links collapse into a dropdown menu. 
+While the footer contains a downloadable copy of my CV (please note, the CV provided for the time being is a placeholder CV, this will be replaced with a software development CV in due time) 
+and links to relevant accounts such as GitHub and Linkedin. 
 
 The about section provides brief snippets of information about me, a photo, if viewed on a desktop or tablet,
 my qualilfications and highlights that I am currently available for employment opportunitites. 
 
-My portfolio provides a snapshot of my most recent projects presented in Bootstrap's cards, 
-the live site and the GitHub repository for each, can be accessed through the buttons provided. For the time being, the 'live site' buttons link to my GitHub account until a time when, they will be replaced with links to actual projects. 
+My portfolio provides a snapshot of my most recent projects presented in Bootstrap's cards, the live site and the GitHub repository for each, can be accessed through the buttons provided. 
+For the time being, the 'live site' buttons link to my GitHub account until a time when, they will be replaced with links to actual projects. 
 
 In regards to my skills, the progress-bars showcase my proficiency in the various languages and frameworks I am familiar with, to users. While, the embedded iframe
 provides then with an opportunity to see how I perform within a tech-orientated setting and portrays my skills through a different medium. 
