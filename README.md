@@ -62,7 +62,7 @@ The required content for the website is:
    * [Contact mobile](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/contact-mobile.png)
    * [Contact tablet](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/blob/master/assets/wireframes/images/contact-tablet.png)
 
-### Surface
+### Surface:
 The light theme with dark accents was chosen to create an eye-catching first impression. The fonts are clear and legible and contrast nicely against the color scheme. 
 
 # Features
