@@ -7,13 +7,27 @@ The purpose of this website is to showcase myself and my abilities, to recruiter
 My goal as an owner, is to increase my visibility within the tech world and provide an eye-catching, user-friendly website to gain interest from potential employers and recruiters.
 
 ## Demo
-Access the live site [here](https://ksheeds1.github.io/Katie-Sheedy-Portfolio/). 
+Access the live site [here](https://ksheeds1.github.io/Katie-Sheedy-Portfolio/)
+
+![alt-text](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/responsive-screenshot.png "Responsive-screenshot")
+
+
 
 # UX
 ### User Stories: 
 >As a recruiter, I want to find a way to contact Katie directly, to speak about a potential employment opportunity.
 
->As a potential employer, I want to be able obtain information regarding her skillset, view her latest projects and find links to relevant accounts such as GitHub and LinkedIn, so that I can assess whether she is viable candidate for an available position. 
+![Contact-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/contact-screenshot.png "Contact")
+
+>As a potential employer, I want to be able obtain information regarding her skillset, so that I can assess whether she is viable candidate for an available position. 
+
+![Skills-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/skills-screenshot.png "Skills")
+
+>As a potential employer, I want to be able to view her latest projects and find links to relevant accounts such as GitHub and LinkedIn, so I can determine whether she is a suitable candidate
+for an available position.
+
+![Portfolio-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/portfolio-screenshot.png "Portfolio")
+![Social-links-final-site](https://github.com/KSheeds1/Katie-Sheedy-Portfolio/raw/master/assets/README/finished-site-screenshots/footer-screenshot.png "Social-links")
 
 ### Strategies:
 * A portfolio website is an imperative asset for a newly qualified developer to increase visibility and cultivate a brand image for oneself. 
