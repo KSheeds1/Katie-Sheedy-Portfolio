@@ -273,17 +273,23 @@ hr{
     text-decoration: none;
 }
 
-button{
+.btn, .btn-outline-light{
     font-family: "roboto", sans-serif;
     font-size: 18px;
     font-weight: bold;
-    background-color: #e5e5e5;
+    background-color: #fafafa;
     color: #af371f;
-    border: none;
-    border-radius: 10%;
+    border-color: #af371f;    
     -webkit-box-shadow: 6px 6px 10px 6px rgba(0, 0, 0, 0.363);
             box-shadow: 6px 6px 20px 6px rgba(0, 0, 0, 0.363);
 }
+
+.btn-outline-light:hover{
+    color: #fafafa;
+    background-color: #af371f;
+    border-color: #fafafa;
+}
+
 
 /*---------------------------------Skills*/
 #skills{
