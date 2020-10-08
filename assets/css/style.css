@@ -185,8 +185,8 @@ hr{
 
 /*---------------------------------Portfolio section*/
 #portfolio{
-    background: -webkit-gradient(linear, left top, right bottom, from(#1a3977), color-stop(#17336b), color-stop(#142d5f), to(#122753));
     background: -o-linear-gradient(top left, #1a3977, #17336b, #142d5f, #122753);
+    background: -webkit-gradient(linear, left top, right bottom, from(#1a3977), color-stop(#17336b), color-stop(#142d5f), to(#122753));
     background: linear-gradient(to bottom right, #1a3977, #17336b, #142d5f, #122753);
     width: 100%;
     height: 100%;
@@ -290,7 +290,6 @@ hr{
     border-color: #fafafa;
 }
 
-
 /*---------------------------------Skills*/
 #skills{
     background-image: url("../images/skills-bg.jpg");
@@ -346,8 +345,8 @@ hr{
 
 /*---------------------------------Contact section*/
 #contact{
-    background: -webkit-gradient(linear, left top, right bottom, from(#1a3977), color-stop(#17336b), color-stop(#142d5f), to(#122753));
     background: -o-linear-gradient(top left, #1a3977, #17336b, #142d5f, #122753);
+    background: -webkit-gradient(linear, left top, right bottom, from(#1a3977), color-stop(#17336b), color-stop(#142d5f), to(#122753));
     background: linear-gradient(to bottom right, #1a3977, #17336b, #142d5f, #122753);
     width: 100%;
     height: 100%;
