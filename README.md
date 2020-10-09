@@ -108,10 +108,24 @@ feedback I will put this in place for the contact form.
 * I plan to update the placeholder CV with a software development specific CV.     
 
 # Technologies Used
-* HTML5
-* CSS3
-* Bootstrap (4.5)
-* Autoprefixer
+* [HTML5](https://dev.w3.org/html5/spec-LC/)
+    * This project uses HTML5 doctype to create the index.html file.
+* [CSS3](https://www.w3.org/Style/CSS/)
+    * This project uses CSS3 to provide styling to index.html.
+* [Bootstrap v4.4](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    * This project uses Bootstrap to provide components such as grid-layouts, progress-bars, and forms as well as classes, to style elements on the site.
+* [JavaScript Plugin](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    * This plugin is used in conjunction with Bootstrap, as some of the Bootstrap components used in this project require the use of JavaScript to function.
+* [JQuery Slim Build](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    * Is used in conjunction with Bootstrap, it is used in this project as it is a necessary component for Bootstrap plugins.
+* [Popper](https://getbootstrap.com/docs/4.4/getting-started/introduction/) 
+    * Is used in conjunction with Bootstrap, it is used in this project to provide tooltips specifically for the contact form.
+* [Autoprefixer](https://autoprefixer.github.io/)
+    * The 'style.css' file of this project was parsed and has had vendor prefixes added to allow animations, grids, transitions, etc. to function across multiple browsers.
+* [HTML Validator](https://validator.w3.org/)
+    * 'Index.html' of this project was validated and was deemed error-free by the HTML validator.
+* [CSS Validator](https://jigsaw.w3.org/css-validator/)
+    * The 'style.css' file of this project was validated and deemed error-free by the CSS validator.
 
 # Testing 
 **Functionality:**
