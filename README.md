@@ -1,6 +1,6 @@
 # Katie Sheedy - Portfolio Website
 
-Milestone Project One: User-Centric Front-end. 
+Milestone Project One: User Centric Front-end Development. 
 
 The purpose of this website is to showcase myself and my abilities, to recruiters and potential employers. The website contains brief snippets of information about me, my skill set, a showcase of six project that use a variety of skills and technologies, and contains a means of contact, through a form, as well as a downloadable CV.
 
