@@ -212,7 +212,8 @@ To run locally, you can clone this repository, or pull the code from this GitHub
   
 # Credits
 ## Content
-All content for the 'About', 'Portfolio', and 'Skills' sections was written by me. 
+All content for the 'About', 'Portfolio', and 'Skills' sections was written by me. The CV provided in the footer
+was also written by me.  
 
 ## Media
 **About-Me image:**
