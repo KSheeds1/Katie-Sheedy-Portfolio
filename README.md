@@ -81,7 +81,7 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 
 # Features
 **Navigation Bar:** 
-* Fixed, in the default position, allows users to quickly identify the different sections. The font color of each section changes when hovered over. On mobile screen widths, sections are available in a collapsible menu to provide a cleaner layout on smaller screens.
+* Fixed, in the default position, allows users to quickly identify the different sections of the site. The font color of each section changes when hovered over. On mobile screen widths, sections are available in a collapsible menu to provide a cleaner layout on smaller screens.
 
 **Bootstrap Cards:**
 * Are utilized in the portfolio section to present my projects in bitesized chunks, they contain a link to the live site and to the github repository which are represented through buttons. 
@@ -98,7 +98,7 @@ The light theme with dark accents was chosen to create an eye-catching first imp
 I plan to implement this feature once my portfolio grows in size.
 
 **Navbar transitions:**
-* I plan to implement a hover in/out transition for the navbar sections, where the text is replaced by an icon.
+* I plan to implement a hover in/out transition for the navbar items, where the text is replaced by an icon when hovered over.
 
 **Contact form functionality:**
 * Once I have developed the skills to put in place the back-end structures needed to submit the form and provide interaction 
